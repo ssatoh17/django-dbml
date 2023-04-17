@@ -7,7 +7,7 @@ import hashlib
 
 
 def string_to_color(string):
-  """ 任意の文字列から、MD5ハッシュを生成 """
+    """ 任意の文字列から、MD5ハッシュを生成 """
     _hash = hashlib.md5(string.encode('utf-8')).hexdigest()    
     color = _hash[2:8]  # 16進数の先頭2文字を除いた残りの6文字を取得
     return '#' + color  # カラーコード

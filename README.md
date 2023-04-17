@@ -31,3 +31,8 @@ be included in the DBML.
 # Thanks
 
 The initial code was based on https://github.com/hamedsj/DbmlForDjango project
+
+# 佐藤変更点
+ - TableGroup情報も付加できるようにした （※Table Group とは https://dbdocs.io/docs/our-roadmap )
+ - テーブル要素のヘッダーの色も自動で変わるようにした（アプリ名文字列をカラーコードに変換することで）
+ - Outputイメージ： https://gyazo.com/38eac1b20485881fe26478699b3c5ceb.png
